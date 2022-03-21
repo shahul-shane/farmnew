@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    height: 100%;
+    background: rgb(232, 248, 225);
+
+}
+.container{
+    background: rgb(255, 255, 255);     
+    height: 50px;
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+#underline,#green{
+    text-decoration: none;
+}
+.menu-container ul li a{
+    color: black;
+}
+.container li{
+    font-family: 'Yeon Sung', Times, serif;
+    margin: -2% 5% 0% 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.green {
+    font-size: 22px;
+}
+.logo{
+    margin: 0 0 0% 2%;
+}
+.Register{
+    margin-top: -25%;
+    width: 100px;
+    padding: 4px 0;
+    border: 2.5px solid #42e084;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Yeon Sung', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.new-user-box{
+    background-color: #fff;
+    width: 25%;
+    height: auto;
+    margin: 15% 0 0 15%;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 2px #64646442;
+}
+.existing-user-box{
+    background-color: none;
+    width: 25%;
+    height: auto;
+    margin: 15% 0 0 25%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 2px #64646442;
+}
+.new-user-box a{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10%;
+    color: #071d10;
+    font-family: 'Yeon Sung', Times, serif;
+}
+.existing-user-box a{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 15%;
+    color: #071d10;
+    font-family: 'Yeon Sung', Times, serif;
+}
+.new-user{
+    padding: 10% 0% 10% 28%;
+}
+.existing-user{
+    padding: 10% 0% 10% 25%;
+}
+#underline{
+    text-decoration: none;
+}
+.existing-user-box{
+    background-color: #fff;
+    width: 25%;
+    height: auto;
+    margin: 15% 10% 0 10%;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    height: 100%;
+    background: rgb(232, 248, 225);
+
+}
+.container{
+    background: rgb(255, 255, 255);     
+    height: 50px;
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+#underline,#green{
+    text-decoration: none;
+}
+.menu-container ul li a{
+    color: black;
+}
+.container li{
+    font-family: 'Yeon Sung', Times, serif;
+    margin: -2% 5% 0% 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.green {
+    font-size: 22px;
+}
+.logo{
+    margin: 0 0 0% 2%;
+}
+.Register{
+    margin-top: -25%;
+    width: 100px;
+    padding: 4px 0;
+    border: 2.5px solid #42e084;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Yeon Sung', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.title
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Yeon Sung', Times, serif;
+}
+
+.detail-box{
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+    margin: 5% 0 0 5%;
+    padding: 2% 0 2% 2%;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: 'Yeon Sung', Times, serif;
+}
+
+p{
+    text-transform: capitalize;
+    line-height: 30px;
+    align-items: center;
+    display: flex;
+}
+span{
+    text-transform: capitalize;
+}
+.name,.gender,.age,.phone,.street,.city,.pincode,.state,.country{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+
+}

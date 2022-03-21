@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    height: 100%;
+    background: rgb(232, 248, 225);
+
+}
+.container{
+    background: rgb(255, 255, 255);     
+    height: 50px;
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+#underline,#green{
+    text-decoration: none;
+}
+.menu-container ul li a{
+    color: black;
+}
+.container li{
+    font-family: 'Yeon Sung', Times, serif;
+    margin: -2% 5% 0% 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.green {
+    font-size: 22px;
+}
+.logo{
+    margin: 0 0 0% 2%;
+}
+.Register{
+    margin-top: -25%;
+    width: 100px;
+    padding: 4px 0;
+    border: 2.5px solid #42e084;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Yeon Sung', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.title{
+    font-size: 32px;
+    font-family: 'Yeon Sung', Times, serif;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 3%;
+    letter-spacing: 5px;
+}
+.first-page{
+    background-color: #fff;
+    margin: 5% 0 5% 17%;
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 2px #64646442;
+}
+
+.user-detail{
+    padding: 5% 0 5% 0%;
+    line-height: 60px;
+}
+.user-detail label{
+    font-size: 22px;
+    font-family: 'Yeon Sung', Times, serif;    
+}
+.user-detail input{
+    width: 200px;
+    height: 30px;
+    border-color: #fff;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0.5px 3px 1px #42e084;
+    font-size: 16px;
+    font-family:'Yeon Sung', Times, serif;    
+    
+}
+
+.input-field{
+    display: flex;
+    justify-content: space-between;
+}
+.fname{
+    margin-left: 12%;
+}
+.phone{
+    margin-left: 16.5%;
+}
+.city{
+    margin-left: 18.5%;
+}
+.zip{
+    margin-left: 15%;
+}
+.lname, .street, .state, .country{
+    margin-right: 12%;
+}
+.button{
+    background-color: #8ff1b8;
+    margin: 5% 0 0 40%; 
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+    border: 2.5px solid #095529;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.phone{
+    margin-left: 16.5%;
+}
+.fstreet{
+    margin-left: 30%;
+}
+.farmername{
+    margin-left: 9.2%;
+}
+.district{
+    margin-left: 15.2%;
+}
+.gender{
+    margin-left: 15.5%;
+}
+.land, .taluk, .state, .country, .age{
+    margin-right: 12%;
+}
